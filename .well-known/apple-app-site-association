@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["MBTR582HPK.com.ms.Stride"],
+        "components": [
+          { "/": "/", "exclude": true, "comment": "the website itself stays in the browser" },
+          { "/": "/*.html", "exclude": true },
+          { "/": "/*.png", "exclude": true },
+          { "/": "/*.svg", "exclude": true },
+          { "/": "/bib/*", "exclude": true },
+          { "/": "/u/*", "comment": "invite page: /u/?username" },
+          { "/": "/c/*", "comment": "race links" },
+          { "/": "/*", "comment": "invites: /username" }
+        ]
+      }
+    ]
+  }
+}
